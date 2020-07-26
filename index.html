@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Up Form</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="#" method="">
+                <label for="name">Full Name</label>
+                <input type="text" placeholder="ex: Mason John" id="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="ex: xyz@example.com" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Min. 6 characters" name="" id="password" required>
+                <label for="confirmation">Confirm Password</label>
+                <input type="password" placeholder="re-enter your password" name="" id="confirmation">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" min="2018-01-01" max="2018-12-31">
+                <label for="gender">Gender</label>
+                <select name="" id="gender">
+                    <option value="Option">Choose Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="Javascript/app.js"></script>
+</body>
+</html>
